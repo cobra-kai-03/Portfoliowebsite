@@ -1,0 +1,248 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@greeshma0601 
+greeshma0601
+/
+Resources
+Private
+Code
+Issues
+Pull requests
+Actions
+Projects
+Security
+Insights
+Settings
+Resources/Project explanation.txt
+@greeshma0601
+greeshma0601 Update Project explanation.txt
+Latest commit d857476 10 hours ago
+ History
+ 1 contributor
+205 lines (134 sloc)  11 KB
+
+webscraping 
+https://www.youtube.com/watch?v=LCVSmkyB4v8
+
+
+portfolio website 
+https://www.youtube.com/watch?v=AknvSPj_68g
+
+e commerce website 
+https://www.youtube.com/c/MrWebDesignerAnas/videos
+https://www.youtube.com/watch?v=_dBalaEm84E
+
+1)Webscraping imdb website:
+
+Code with harry https://www.codewithharry.com/videos/python-web-scraping-tutorial-in-hindi/#webscr
+Tutorial link = https://www.youtube.com/watch?v=LCVSmkyB4v8
+https://www.geeksforgeeks.org/introduction-to-web-scraping/
+https://www.geeksforgeeks.org/difference-between-web-scraping-and-web-crawling/?ref=rp
+
+Explanation:
+The IMDB website contains movie ratings, and can webscrape the top rated movies there.
+
+The list of modules required to scrape from the IMDB website are requests, bs4, openpyxl module.
+
+The Requests library is an integral part of Python for making HTTP requests to a specified URL. 
+
+When one makes a request to a URI, it returns a response.
+
+Parsed the page's HTML source code using the Beautiful Soup library, which is a web scraping framework for Python.
+
+In order to load data into an excel file, use the openpyxl module. Using openpyxl, create a new excel file and 
+then rename the sheet name and then load data into the excel file.
+
+============================================================================================================================================================
+
+Webscraping definition:
+Web scraping is a technique to fetch data from websites. 
+Web Scraping is the automation of the data extraction process from websites.
+This event is done with the help of web scraping software known as web scrapers. They automatically load and extract data from the websites based on user requirements. 
+These can be custom built to work for one site or can be configured to work with any website.
+
+Two ways of getting data from a website:
+
+1.Using API https://tray.io/blog/how-do-apis-work
+An application programming interface is a set of rules that define how computers, applications, or machines can talk to each other 
+You can think of it this way: the typical user interface is intended for use by a human being, while APIs are intended for use by an application or computer.
+
+2.HTML web scrapping using some tool like bs4
+
+Why particular techstack:
+
+Beautiful soup library:https://limeproxies.netlify.app/blog/selenium-vs-beautifulsoup
+BeautifulSoup is more user-friendly and allows you to learn faster and begin web scraping smaller tasks easier.
+it works with simple and flexible codes.
+The documentation is comprehensive and allows for easy learning
+Selenium on the other hand is important when the target website has a lot of java elements in its code.
+
+BeautifulSoup is the best option for you if you have a small task at hand. All you need to do is install the request module and the HTML parser of your choice.
+If the website you would be scraping from has a lot of JavaScript used, then selenium would come to your rescue.
+
+A huge pro of BeautifulSoup is its ease of use. with just a few lines of code, you can build a scraper. This doesn’t imply that it breaks easily either. And so BeautifulSoup is popular among developers for these reasons and others.
+
+There is an online community with various solutions to different problems you may face during using this library.
+
+So if you have a small web scraping task that doesn’t require huge data extraction, you can use BeautifulSoup.
+
+============================================================================================================================================================
+
+The advantages of using BeautifulSoup in summary are:
+
+Ease to learn
+Community support to help with issues when they arise
+The documentation is comprehensive and allows for easy learning
+
+============================================================================================================================================================
+
+Uses of Web Scraping: Web scraping finds many uses both at a professional and personal level. Having different needs at different levels, some popular uses of web scraping are.
+
+Brand Monitoring and Competition Analysis: Web Scraping is used to get customer feedback regarding a particular service or product so as to understand how a customer feels regarding that particular thing. It is also used to extract competitor data in a structural, usable format.
+Machine Learning: Machine Learning is a process of Artificial Intelligence in which the machine is allowed to learn and improve with its experience rather than being explicitly programmed. For that, a large amount of data is required from millions of sites which is extracted through web scraping software.
+Financial Data Analysis: Web Scraping is used to keep a record of the stock market in a usable format and hence employ the same for insights.
+Social Media Analysis: It is used to extract data from social media sites to gauge customer trends, and how they react to the campaign.
+SEO monitoring: Search Engine Optimization is the optimization of the visibility and ranking of a website among different search engines like Google, Yahoo, Bing, etc. Web scraping is used to understand how the ranking of the content over time.
+
+============================================================================================================================================================
+Future improvements:
+
+
+=========================
+
+E COMMERCE WEBSITE PROJECT
+
+FEATURES
+Created an ecommerce website mulipage using  HTML5,CSS,PHP,MySQL database.
+
+The main feature of this website are it uses CRUD operations in the shopping cart ,wishlist and products pages.
+
+Admin panel and user account pages to maintain the profiles of the user.
+
+Search a product page to find the products in the products page .
+
+A contact page where the user can post any query to the admin. The user leaves a message and that message is stored in the server-side database for review. 
+
+
+WHY TECHSTACK
+
+1. PHP 
+
+=>The PHP backend is highly efficient for a website or an application.
+=> can code in the language at a significantly faster speed than with Node. js.
+=>This is primarily because there's no need to use converters or compilers. PHP allows you to establish a connection to your SQL database without hosting restrictions or confinements.
+
+=>most of them used in eCommerce Marketplaces
+Websites
+Marketing Platforms
+Blogs	
+
+Advantages of PHP 
+
+Works on nearly all servers and platforms. 
+Supports countless CMSs, libraries, and frameworks. 
+It is easy to configure the development environment and process. 
+You don’t need a virtual server with SSH access to run PHP, unlike with Node.js.
+One of the most sustainable, well-elaborated, and popular backend languages, with 80% of websites being built with PHP.
+WordPress, the world’s most used CMS, uses PHP.
+There’s a strong community of web developers who contribute to the growth of the language, auxiliary software, and training materials.
+It is very easy to learn and quick to code. 
+It requires fewer code lines and has a neat code syntax.
+It is supported by many internet hosting service providers. 
+
+Disadvantages of PHP
+
+Incapable of handling a huge number of applications.
+It offers slower operations than Node.js because it processes line by line, executing the following function only after the previous one (but there are solutions as mentioned in this piece to manage the issue and get the best PHP performance).
+PHP is web-oriented, and it works only at the backend of your website. 
+It is imperfect for debugging. This is even with in-built error highlighting tools. PHP lacks efficiency when it relates to discovering, filtering, and fixing code errors.
+
+
+2.My SQL 
+https://www.datamation.com/storage/8-major-advantages-of-using-mysql/
+MySQL tops the list of robust transactional database engines available on the market. With features like complete atomic, consistent, isolated, durable transaction support, multi-version transaction support, and unrestricted row-level locking, it is the go-to solution for full data integrity.
+
+3.why php used with mysql
+Vast amount of database interfaces;
+PHP checks various levels of security;
+Integration facility with various other open-source platforms;
+Integrates other software languages such as C, C++, JAVA/AJAX, etc;
+Supports Joomla, Drupal and WordPress CMS, and osCommerce and Zen Cart shopping carts;
+HTML Code can be embedded within PHP Code;
+Cross-platform ability;
+Server-side web programming language;
+Large user community.
+Cost-effective personalized PHP applications solutions;
+A complete open-source platform;
+Frequently updated (these updates are also available for free);
+Availability of various add-ons and plugins;
+Superior website performance;
+
+
+Listed below are some of the advantages of PHP MYSQL Web Development:
+
+Dynamic: Since PHP is a server-side scripting language it creates dynamic pages with customized features. PHP provides a user-friendly and interactive website or web application and also enables visitors to freely interact while producing very flexible and dynamic content.
+
+Ease of use: PHP is very easy to learn as compared to the other programming languages. The PHP syntax can easily be parsed. With its stability, PHP is sure to solve many problems with ease.
+
+HTML embedded codes: PHP is no doubt a stable and cross-platform compatible language. And because of its ability to decode HTML, there is no need to have separate coding for PHP. This property comes with several other benefits such as:
+
+– PHP can easily be incorporated into a code generated by WYSIWYG editors
+
+– PHP can reduce the cost while increasing the efficiency of the websites or web applications
+
+– With PHP, one does not have to rewrite every line of HTML in a programming language
+
+Ideal for eCommerce development: PHP can easily be customized as per the business-specific needs of the clients and can execute all the demands for eCommerce development.
+
+Cost-effective: PHP web development is very cost-effective and never costs an extra dime. With a free license, you can be sure that no one will ask you to pay extra after developing the website. It is worth knowing that Apache/PHP/MYSQL combo runs perfectly well on low-cost, low-end hardware that you can ever imagine for ISS/ASP/SQL Server.
+
+Talking about What are the benefits of using PHP MySQL Development Services? Another big advantage of PHP is its interoperability with multiple operating systems and servers. Portability being one of the biggest concerns for businesses, PHP solves the portability issues with one or more users of the operating systems. Businesses can save money and leverage their existing resources rather than investing a large sum of money in purchasing proprietary products.
+================================================
+Future improvements
+
+===========================
+
+1.Search recommendation system
+2.product recommendation 
+3.FAQ For Products
+4.Reviews of products
+
+================================
+
+Learnings in project
+
+======================
+
+portfolio website 
+
+
+improvements
+1.SEO-search engine optimisation
+2.Chatbot for any queries using any framework
+
+
+
+Learnings
+1.Professional way to showcase your work
+2.Shows you're more than your resume
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+Resources/Project explanation.txt at main · greeshma0601/Resources
